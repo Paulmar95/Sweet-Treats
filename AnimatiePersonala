@@ -1,0 +1,117 @@
+---Animatie---
+
+<!DOCTYPE html>
+<head><title>Animatii</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="pstuff"><p>Marinescu</p></div>
+<div class="pstuff2"><p>Paul</p></div><p></p>
+<div class="pstuff3"><p>UTM</p></div>
+<div class="pstuff4"><p>Info</p></div>
+</body>
+</html>
+
+---Style.css---
+
+.pstuff {
+	font-size:20px;
+	color:white;
+	text-shadow:3px 3px black;
+	margin-left:40%;
+	margin-top:100px;
+	text-align:center;
+	position:relative;
+	float:left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 99; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 99;
+    animation-direction: reverse;    
+}
+.pstuff2 {
+	font-size:20px;
+	color:white;
+	text-shadow:3px 3px black;
+	margin-top:100px;
+	text-align:center;
+	position:relative;
+	float:left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 99; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: normal; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 99;
+    animation-direction: normal;    
+}
+.pstuff3 {
+	font-size:20px;
+	color:white;
+	text-shadow:3px 3px black;
+	margin-left:40%;
+	text-align:center;
+	position:relative;
+	float:left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 99; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate-reverse; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 99;
+    animation-direction: alternate-reverse;    
+}
+.pstuff4 {
+	font-size:20px;
+	color:white;
+	text-shadow:3px 3px black;
+	text-align:center;
+	position:relative;
+	float:left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 99; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 99;
+    animation-direction: alternate;    
+}
+
+
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
